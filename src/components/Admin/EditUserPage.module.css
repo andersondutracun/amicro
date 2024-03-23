@@ -1,0 +1,24 @@
+.form_container {
+    padding: 80px 5%;
+  }
+
+  .form_container h2{
+    color: var(--color_2);
+    text-align: center;
+  }
+
+.form_container label{
+    width: 20%;
+    font-size: 18px;
+    font-weight: 500;
+    margin: auto;
+}
+  
+.form_container input{
+    font-size: 18px;   
+}
+
+.form_container button{
+    margin: auto;
+    margin-top: 1.3em;
+}

@@ -1,0 +1,27 @@
+.redes_footer{
+    display: flex;
+    justify-content: space-evenly;
+    position: static;
+    margin-top: 0.8em;
+    gap: .4em;
+}
+
+.redes_footer svg{
+    color: #530901;
+    margin-right: 0.6em;
+}
+
+.redes_footer a{
+    display: flex;
+    color: #530901;
+    font-size: 18px;
+}
+
+.redes_footer a span{
+    align-items: center;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+}

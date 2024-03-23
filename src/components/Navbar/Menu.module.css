@@ -1,0 +1,42 @@
+.links_list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links_list li{
+    list-style: none;
+}
+
+.active {
+    background-color: var(--color_2);
+    color: #fff;
+    border-radius: 4px;
+}
+
+.links_list a{
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid var(--color_2);
+    display: block;
+    text-transform: uppercase;
+}
+
+.active:hover {
+    background-color: var(--color_2);
+}
+
+.links_list a:hover {
+    background-color: var(--color_5);
+}
+
+.btn{
+    padding: 15px;
+    border-bottom: 1px solid var(--color_2);
+    font-size: 1em;
+    color: #000;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--color_5);
+}

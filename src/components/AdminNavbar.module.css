@@ -1,0 +1,10 @@
+.AdminNavbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .8em; 
+    padding: 5px 5%;
+    height: 130px;
+    align-items: center;
+    background-color: var(--color_3);
+    margin-bottom: 20px;
+}

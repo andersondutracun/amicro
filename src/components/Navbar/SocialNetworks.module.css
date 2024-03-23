@@ -1,0 +1,14 @@
+.redes{
+    display: flex;
+    position: static;
+    gap: .4em;
+}
+
+.redes svg{
+    color: #fff;
+}
+
+.redes a{
+    color: #fff;
+    font-size: 18px;
+}

@@ -1,0 +1,42 @@
+.links_list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links_list li{
+    list-style: none;
+}
+
+.active {
+    background-color: #555555;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.links_list a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-transform: uppercase;
+}
+
+button{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: var(--color_5);
+}
+
+.active a:hover {
+    background-color: var(--color_4);
+}
+
+.links_list a:hover {
+    background-color: var(--color_5);
+}
+
+

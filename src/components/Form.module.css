@@ -1,0 +1,12 @@
+.w_form{
+    width: 100%;
+}
+
+.w_form form{
+    max-width: 100%;
+}
+
+.w_form form button{
+    width: 150px;
+    margin: auto;
+}

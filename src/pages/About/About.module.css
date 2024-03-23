@@ -1,0 +1,123 @@
+.about{
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    overflow: visible;
+}
+
+.home_serv{
+    position: static;
+    display: flex;
+    margin-top: 0px;
+    padding-top: 0px;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.wrap_left{
+    position: sticky;
+    left: 0%;
+    top: 28%;
+    right: auto;
+    bottom: 36%;
+    display: flex;
+    width: 20%;
+    height: auto;
+    padding-right: 29px;
+    padding-left: 5%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.wrap_left button{
+    width: 100%;
+    margin-bottom: 14px;
+    padding: 15px 15px 15px 21px;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: left;
+}
+
+.active_about{
+    background-color: rgba(191, 55, 41, 0.03);
+}
+
+.wrap_right{
+    position: static;
+    z-index: 1;
+    display: block;
+    width: 70%;
+    padding-left: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 0 auto;
+}
+
+.sobre_secao{
+    padding-top: 2em;
+    margin-top: 10px;
+    margin-bottom: 91px;
+}
+
+.title_wrap{
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 14px;
+    padding-right: 10px;
+    padding-left: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.title_wrap h3{
+    max-width: 600px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: var(--color_0);
+    font-size: 46px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.text_span{
+    content: "";
+    height: 20px;
+    background-color: var(--color_5);
+}
+
+.title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 34px;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+
+.subtitle{
+    margin-bottom: 1.6em;
+    font-size: 17px;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+.sobre_content ul{
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.sobre_content ol{
+    margin-left: 3em;
+    margin-right: 3em;
+}

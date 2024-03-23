@@ -1,0 +1,122 @@
+.container {
+    padding: 80px 5%;
+    padding: 20px;
+  }
+
+  .title h2{
+    color: var(--color_2);
+    text-align: center;
+    font-size: 25px;
+    margin: 0 auto;
+  }
+
+  .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5em;
+  }
+
+  .create{
+    padding: 6px 9px;
+    background-color: var(--color_2);
+    color: #f2f2f2;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .create:hover{
+    background-color: var(--color_4);
+    color: #fff;
+  }
+
+  .usersTable {
+    width: 45%;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  .usersTable th,
+  .usersTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .usersTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .usersTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .usersTable tr:hover {
+    background-color: #ddd;
+  }
+  
+  .actionCell {
+    display: flex;
+    align-items: center;
+  }
+  
+  .actionButton {
+    background-color: var(--color_2);
+    border-radius: 5px;
+    border: none;
+    color: #f2f2f2;
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .actionButton:hover{
+    background-color: var(--color_4);
+  }
+
+  .deleteButton:hover {
+    background-color: #ff021b;
+    color: #fff;
+  }
+  
+  /* Definir largura mínima para a coluna do nome */
+  .usersTable td:nth-child(3) {
+    min-width: 200px; /* ou ajuste conforme necessário */
+  }
+  
+  .pagination {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination li {
+    margin-right: 5px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .pagination .activePage button {
+    background-color: var(--color_2);
+    color: #fff;
+  }
+  
+  .loading{
+    color: var(--color_2);
+    font-size: 22px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 500;
+  }

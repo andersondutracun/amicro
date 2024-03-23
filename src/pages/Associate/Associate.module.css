@@ -1,0 +1,147 @@
+.page{
+    padding: 80px 5%;
+    height: auto;
+}
+
+.associate{
+    display: flex;
+    flex-direction: column;
+}
+
+.beAssociate{
+    text-align: center;
+    font-size: 54px;
+    margin-block: 0;
+    margin: 0;
+}
+
+.beAssociate p{
+    color: var(--color_2);
+    margin-bottom: 1em;
+}
+
+.listAssociate{
+    margin: auto;
+    position: relative;
+}
+
+.listAssociate ul{
+    color: var(--color_2);
+}
+
+.listAssociate ul li{
+    margin-bottom: 0.8em;
+}
+
+.listAssociate ul li p{
+    font-size: 20px;
+    letter-spacing: 0.12em;
+}
+
+.image{
+    position: absolute;
+    right: 20em;
+    bottom: 0;
+}
+
+.list{
+    width: 100%;
+    background-color: #fbfbfb;
+}
+
+.listPage{
+    padding: 80px 5%;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h1{
+    font-size: 50px;
+    color: var(--color_2);
+    margin-bottom: 0.8em;
+}
+
+.grid {
+    width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px; 
+    justify-items: center;
+    justify-content: center; 
+  }
+  
+  .panel {
+    border-radius: 10px;
+    padding: 8px 9px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+
+  .panel:hover{
+    transition: 2ms;
+    background-color: #cacaca;
+  }
+  
+  .panel img {
+    width: 200px;
+    height: 200px;
+  }
+  
+.panel p{
+    max-width: 200px;
+}
+
+.plans{
+    padding: 80px 5%;
+    height: auto;
+}
+  
+.plansList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.object{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.object img{
+    width: 100px;
+    margin-bottom: 0.8em;
+}
+
+.object h3{
+    color: var(--color_2);
+}
+
+.object p{
+    margin-top: 0.4em;
+    max-width: 150px;
+}
+
+.plansText{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 18px;
+    color: var(--color_2);
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button a{
+    margin: auto;
+    width: 280px;
+}

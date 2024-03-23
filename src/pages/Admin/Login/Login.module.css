@@ -1,0 +1,30 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Define a altura da tela inteira */
+  }
+  
+  .panel {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 1000px;
+  }
+  
+  /* Estilos para a imagem */
+  .login img {
+    margin-bottom: 20px; 
+    align-self: center; 
+  }
+
+.login_form{
+    padding: 2.2em;
+}
+
+.login_form p{
+    color: #aaa;
+}

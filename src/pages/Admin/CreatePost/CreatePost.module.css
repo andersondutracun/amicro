@@ -1,0 +1,43 @@
+
+  /* Estilos para a div pai */
+  .createpost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  /* Estilos para cada div filho */
+  .createpost > div {
+    margin: 0 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Estilos para os elementos dentro das divs */
+  .createpost h1 {
+    margin-top: 0;
+  }
+  
+  .createpost p {
+    margin-bottom: 10px;
+  }
+  
+  .createpost button {
+    padding: 10px 20px;
+    background-color: var(--color_2);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+  }
+  
+  .createpost button:hover {
+    transition: 0.5ms;
+    background-color: var(--color_5);
+    color: var(--color_2);
+  }

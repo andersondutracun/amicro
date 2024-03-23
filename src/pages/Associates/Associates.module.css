@@ -1,0 +1,110 @@
+.page{
+    padding: 80px 5%;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.associate{
+    width: 30%;
+    margin-right: 20px;
+    border-right: 1px solid var(--color_2);
+    padding-right: 20px;
+}
+
+.title h1{
+    color: var(--color_2);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0.4em;
+}
+
+.subtitle{
+    color: var(--color_4);
+    font-weight: 500;
+    margin-bottom: 0.8em;
+}
+
+.content_associate{
+    display: flex;
+    flex-direction: column;
+}
+
+.content_associate ul{
+    margin-bottom: .4em;
+    margin-left: 1.3em;
+}
+
+.content_associate ul li p{
+    letter-spacing: .12em;
+}
+
+.content_associate a{
+    margin: auto;
+    width: 40%;
+}
+
+.pageLogin{
+    width: 40%;
+    margin-left: 2em;
+}
+
+.login{
+    width: 100%;
+}
+
+.panel h1{
+    color: var(--color_2);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0.4em;
+}
+
+.panel form{
+    width: 100%;
+    max-width: 100%;
+}
+
+.restore {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 10px; 
+  }
+  
+  .restoreButton {
+    border: none;
+    background-color: transparent;
+    color: var(--color_2);
+    cursor: pointer;
+  }
+
+
+  .panel form button{
+    margin: auto;
+}
+
+.buttonsRestore{
+    display: flex;
+    flex-direction: row;
+}
+
+.btnReturn{
+    background-color: transparent;
+    color: var(--color_2);
+    border: 1px solid var(--color_4);
+}
+
+.msgError{
+    font-size: 12px;
+    text-align: center;
+    color: var(--color_2);
+}
+
+.msgSuccess{
+    font-size: 12px;
+    text-align: center;
+    color: var(--color_2);
+}

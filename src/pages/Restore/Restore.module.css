@@ -1,0 +1,14 @@
+.page{
+    padding: 80px 5%;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.form form{
+    width: 100%;
+}

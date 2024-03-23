@@ -1,0 +1,40 @@
+  .profile_info {
+    margin: 80px 5%;
+  }
+  
+  .profile{
+    width: 20%;
+    margin: auto;
+  }
+
+  .profile_info p {
+    margin: 10px 0;
+  }
+  
+  .profile_info label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .profile_info input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .profile_info button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .profile_info button:hover {
+    background-color: #218838;
+  }
+  

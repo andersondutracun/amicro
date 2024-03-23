@@ -1,0 +1,16 @@
+.create_post{
+    margin-top: 1.2em;
+    justify-content: center;
+    text-align: center;
+}
+
+.create_post h2{
+    margin-bottom: 1.5em;
+}
+
+.create_post button{
+    margin-top: 1.5em;
+    margin: auto;
+    width: 15em;
+    margin-bottom: 50px;
+}

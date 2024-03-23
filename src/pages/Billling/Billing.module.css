@@ -1,0 +1,13 @@
+.billing{
+    padding: 80px 5%;
+}
+
+.associacao{
+    margin-bottom: 1.5em;
+}
+
+.associacao h2{
+    text-align: center;
+    color: var(--color_2);
+    margin-bottom: 15px;
+}

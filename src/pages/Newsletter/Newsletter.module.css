@@ -1,0 +1,110 @@
+/* Newsletter.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.posts_wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.content {
+  width: 70%;
+}
+
+.categories {
+  margin-top: 80px;
+  position: sticky;
+  left: auto;
+  top: 5%;
+  right: 0%;
+  bottom: auto;
+  width: 28%;
+  height: 100%;
+  margin-right: 5%;
+  padding-top: 0px;
+  padding-left: 25px;
+  color: #1a1b29;
+
+}
+
+.categories h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.categories ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.categories li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.categories li span {
+  font-size: 16px;
+}
+
+.categories li span:first-child {
+  margin-right: 10px;
+}
+
+.categories li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.categories li a:hover {
+  color: var(--color_2);
+}
+
+.post_list {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+  padding: 80px 5%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pageNumbers {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pageButton {
+  padding: 8px 16px;
+  margin: 0 4px;
+  background-color: var(--color_2);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pageButton:hover {
+  background-color: var(--color_4);
+}
+
+.active {
+  background-color: var(--color_4);
+}
